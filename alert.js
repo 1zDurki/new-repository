@@ -123,10 +123,107 @@ alert(sum);*/
 
 
 
-function multiplyNumeric(obj) {
+/*function multiplyNumeric(obj) {
 	for(let key in obj) {
 		if (typeof obj[key] == 'number') {
 			obj[key] *= 2;
 		}
 	}
+}*/
+
+
+/*
+//Обьект пользователя
+let user = {
+	name: "John",
+	age: 30,
+};
+//Научим пользователя здороваться
+user.sayHi = function() {
+	alert("Привет");
+};
+
+user.sayHi();
+*/
+
+/*
+user = {
+	sayHi() {
+		alert("Привет");
+	}
+};
+*/
+
+/*
+let user = {
+	name: "John",
+	age: 30,
+
+	sayHi() {
+		alert(this.name);
+	}
+
+};
+
+user.sayHi();
+*/
+
+/*
+let user = { name: "John" };
+let admin = { name: "dog" };
+
+function sayHi() {
+	alert(this.name);
 }
+
+user.f = sayHi;
+admin.f = sayHi;
+
+user.f();
+admin.f();
+
+admin['f']();
+*/
+
+/*
+//Калькулятор!!! Сам написаль =))))
+let calcltr = {
+	sum() {
+		return a + b;
+	},
+	mul() {
+		return a * b;
+	},
+	read() {
+		alert(`a + b = ${this.sum()}`);
+		alert(`a * b = ${this.mul()}`);
+		return;
+	},
+};
+
+let a = +prompt('a?', '');
+let b = +prompt('b?', '');
+
+calcltr.read();
+*/
+
+/*
+let ladder = {
+	step: 0,
+	up() {
+		this.step++;
+		return this;
+	},
+	down() {
+		this.step--;
+		return this;
+	},
+	showStep: function() {
+		alert( this.step );
+		return this;
+	},
+};
+
+ladder.up().showStep();
+*/
+
