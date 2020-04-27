@@ -227,3 +227,64 @@ let ladder = {
 ladder.up().showStep();
 */
 
+/*
+function Calculator() {
+
+	this.read = function() {
+		this.a = +prompt('a?', '');
+		this.b = +prompt('b?', '');
+	};
+
+	this.sum = function() {
+		return this.a + this.b;
+	};
+
+	this.mul = function() {
+		return this.a * this.b;
+	};
+}
+
+let calculator = new Calculator();
+calculator.read();
+
+alert( "Sum=" + calculator.sum() );
+alert( "Mul=" + calculator.mul() );
+*/
+
+
+
+//Accumulator!!!
+/*
+function Accumulator(startingValue) {
+	this.value = startingValue;
+
+	this.read = function() {
+		this.value += +prompt('Сколько нужно добавить?', 0);
+	};
+
+}
+
+let accumulator = new Accumulator(0);
+accumulator.read();
+accumulator.read();
+alert(accumulator.value);
+*/
+
+
+
+/*
+function readNumber() {
+	let num;
+
+	do {
+		num = prompt("Введите число", "");
+	} while ( !isFinite(num) ); //проверка на тип числа
+
+	if (num === null || num === '') return null;
+
+	return +num;
+}
+
+alert (`Число ${readNumber()}`);
+*/
+
