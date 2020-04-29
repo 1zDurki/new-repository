@@ -288,3 +288,46 @@ function readNumber() {
 alert (`Число ${readNumber()}`);
 */
 
+
+
+
+/*
+let str = "Доброго дня пользователь";
+
+if (str.indexOf("дня") != -1) {
+	alert("Есть совпадение");
+}
+*/
+
+
+
+//ucFirst("вася") == "Вася";
+/*
+function ucFirst(str) {
+	if (!str) return str;
+	return str[0].toUpperCase() + str.slice(1);
+}
+
+alert( ucFirst("вася") );
+*/
+
+
+/*
+let styles = ["Джаз", "Блюз"];
+
+styles.push("Рок-н-ролл");
+alert(styles);
+
+let n = styles.length / 2;
+
+styles.splice(n, 1, "Классика");
+alert(styles);
+
+alert(styles[0]);
+styles.shift(0);
+
+styles.unshift("Рэп", "Регги");
+alert(styles);
+*/
+
+
